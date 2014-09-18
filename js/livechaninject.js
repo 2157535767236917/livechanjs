@@ -14,7 +14,7 @@ function getSelText() {
         return;
     }
 }
-document.onmouseup = getSelText;
+document.mousedown = getSelText;
 
 
 quote = function(id) {
